@@ -16,4 +16,9 @@ class MahasiswaController extends Controller
         //mengirima data mahasiwa ke view mahasiswa
         return view('mahasiswa.index',['mahasiswa' => $mahasiswa]);
     }
+
+    public function tambah()
+    {
+        return view('mahasiswa.tambah');
+    }
 }

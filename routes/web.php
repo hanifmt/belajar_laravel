@@ -43,3 +43,4 @@ Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
 //route CRUD Mahasiswa
 Route::get('/mahasiswa','MahasiswaController@index');
+Route::get('/mahasiswa/tambah','MahasiswaController@tambah');
