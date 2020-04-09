@@ -44,3 +44,7 @@ Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 //route CRUD Mahasiswa
 Route::get('/mahasiswa','MahasiswaController@index');
 Route::get('/mahasiswa/tambah','MahasiswaController@tambah');
+Route::post('/mahasiswa/store','MahasiswaController@store');
+Route::get('/mahasiswa/edit/{id}','MahasiswaController@edit');
+Route::post('/mahasiswa/update','MahasiswaController@update');
+Route::get('/mahasiswa/hapus/{id}','MahasiswaController@hapus');
