@@ -48,3 +48,5 @@ Route::post('/mahasiswa/store','MahasiswaController@store');
 Route::get('/mahasiswa/edit/{id}','MahasiswaController@edit');
 Route::post('/mahasiswa/update','MahasiswaController@update');
 Route::get('/mahasiswa/hapus/{id}','MahasiswaController@hapus');
+
+Route::get('/pengguna','PenggunaController@index');
