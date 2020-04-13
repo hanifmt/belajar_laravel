@@ -53,3 +53,5 @@ Route::get('/mahasiswa/hapus/{id}','MahasiswaController@hapus');
 Route::get('/pengguna','PenggunaController@index');
 //route relasi one to many
 Route::get('/article', 'WebController@index');
+//route relasi many to many
+Route::get('/kado', 'KadoController@index');

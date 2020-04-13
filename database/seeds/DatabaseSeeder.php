@@ -18,5 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call(TeleponSeeder::class);
         $this->call(ArticleSeeder::class);
         $this->call(TagSeeder::class);
+        $this->call(AnggotaSeeder::class);
+        $this->call(HadiahSeeder::class);
+        $this->call(AnggotaHadiahSeeder::class);
     }
 }
