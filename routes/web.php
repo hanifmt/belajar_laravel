@@ -49,4 +49,7 @@ Route::get('/mahasiswa/edit/{id}','MahasiswaController@edit');
 Route::post('/mahasiswa/update','MahasiswaController@update');
 Route::get('/mahasiswa/hapus/{id}','MahasiswaController@hapus');
 
+//route relasi one to one
 Route::get('/pengguna','PenggunaController@index');
+//route relasi one to many
+Route::get('/article', 'WebController@index');

@@ -13,6 +13,6 @@ class PenggunaController extends Controller
         //mengambil semua data pengguna
         $pengguna = Pengguna::all();
         //return data ke view
-        return view('pengguna', ['pengguna' => $pengguna]);
+        return view('RelasiOneToOne.pengguna', ['pengguna' => $pengguna]);
     }
 }
